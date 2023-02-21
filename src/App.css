@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-top{
+    margin-left: auto;
+    margin-right: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    margin-left: 3%;
+    margin-right: 3%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.advertise_div{
+    background-color: #edf0f5;
+    height: 19vh;
+    display: block;
+    width: 88%;
+margin-left: 6%;
 }
-
-.App-link {
-  color: #61dafb;
+.search_product {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-search {
+  width: 70%;
+  height: 57px;
+  border-radius: 50px;
+  padding: 0 20px;
+  font-size: 15px;
+  border: none;
+  box-shadow: 4px 8px 30px rgba(141, 141, 141, 0.1);
+  
+}
+.search {
+    margin-left: 5px;
+    height: 57px;
+    width: 10%;
+    min-width: 13%;
+    font-size: 23px;
+    border-radius: 50px;
+    box-shadow: 4px 3px 30px rgba(141, 141, 141, 0.1);
+    text-align: center;
+    background-color: #00896f;
+    color: white;
+    padding: 10px 3px;
+    text-decoration: none;
+}
+.card_div {
+    width: 90%;
+    padding: 4% 2% 0%;
+    margin: auto;
+    background-color: white;
 }
